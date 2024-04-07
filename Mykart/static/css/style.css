@@ -385,10 +385,28 @@ th:last-child{
     padding: 50px 0;
     background: radial-gradient(#fff, #ffd6d6);
 }
-.form-container{
+
+.message-container{
     background: #fff;
     width: 300px;
-    height: 400px;
+    height: fit-content;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.error{
+color: red;
+}
+.success{
+color: green;
+}
+.form-container{
+    background: #E1FAC2;
+    width: 300px;
+    height: 500px;
     position: relative;
     text-align: center;
     padding: 20px 0;
@@ -404,6 +422,7 @@ th:last-child{
     width: 100px;
     display: inline-block;
 }
+
 .form-btn{
     display: inline-block;
 }
